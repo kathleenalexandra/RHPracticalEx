@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kathleenalexandra/RHPracticalEx/issues"
   },
-  "homepage": "https://github.com/kathleenalexandra/RHPracticalEx#readme"
+  "homepage": "https://github.com/kathleenalexandra/RHPracticalEx#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
 }
