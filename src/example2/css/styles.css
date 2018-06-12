@@ -3,33 +3,71 @@ body{
 	background-color:grey;
 }
 
+
+
 .panel-container {
 	display:block;
 	margin:auto;
-	margin-top:10%;
+	margin-top:15%;
 	max-width:50%;
 	background:white;
-	min-height:400px;
+	min-height:350px;
 }
 
-ul {
-    list-style-type: none;
+
+
+.horizontal-menu  {
+    background: linear-gradient(#c00, #470000);
+}
+
+
+.horizontal-menu a {
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.horizontal-menu a:hover {
+    background: linear-gradient(red, black, red);
+}
+
+.horizontal-menu a.active {
+    background: linear-gradient(red, black, red);
+}
+
+
+
+
+
+@media only screen and (min-width: 860px) {
+
+
+.horizontal-menu  {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: red;
+    /*background: linear-gradient(#c00, #470000); */ 
 }
 
-li {
+.horizontal-menu a {
+    float: left;
+    display:inline-block;
+    border-left:1px solid #bbb;
+}
+
+.horizontal-menu .right-align{
     float: right;
-    border-right:1px solid #bbb;
 }
 
-li:last-child {
-    border-right: none;
+
+
+.horizontal-menu a:first-child {
+    float:left;
 }
 
-li a {
+
+.horizontal-menu a  {
     display: block;
     color: white;
     text-align: center;
@@ -37,10 +75,18 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
+.horizontal-menu a:hover {
+        background: linear-gradient(red, black, red);
+    
+    }
+
+
+
 }
 
-.active {
-    background-color: #4CAF50;
-}
+
+
+
+
+
+
