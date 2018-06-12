@@ -11,18 +11,22 @@
 @import "custom/variables.less";
 @import "mixins.less";
 
-.test {
-  background: @grey-dot;
-}
+
 
 body {
+
+ 
+
   background:
-    linear-gradient(90deg, @dot-background (@dot-space - @dot-size), transparent 1%) center,
-    linear-gradient(@dot-background (@dot-space - @dot-size), transparent 1%) center,
-    @grey-dot;
+    linear-gradient(90deg, @bg-color (@dot-space - @dot-size), transparent 1%) center,
+    linear-gradient(@bg-color (@dot-space - @dot-size), transparent 1%) center,
+    @dot-color;
   background-size: @dot-space @dot-space;
 }
 
+.RH-box {
+  margin-top: @box-offset; 
+}
 
 
 

@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /* custom variables */
+/* background */
+/* box styling */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html
 {
@@ -1408,17 +1410,17 @@ th
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-.test
-{
-    background: #3882e8;
-}
 body
 {
-    background: -webkit-linear-gradient(0deg, #3882e8 19px, transparent 1%) center, -webkit-linear-gradient(#3882e8 19px, transparent 1%) center, #3882e8;
-    background:      -o-linear-gradient(0deg, #3882e8 19px, transparent 1%) center, -o-linear-gradient(#3882e8 19px, transparent 1%) center, #3882e8;
-    background:         linear-gradient(90deg, #3882e8 19px, transparent 1%) center, linear-gradient(#3882e8 19px, transparent 1%) center, #3882e8;
+    background: -webkit-linear-gradient(0deg, #f6f6f6 19px, transparent 1%) center, -webkit-linear-gradient(#f6f6f6 19px, transparent 1%) center, #bbb;
+    background:      -o-linear-gradient(0deg, #f6f6f6 19px, transparent 1%) center, -o-linear-gradient(#f6f6f6 19px, transparent 1%) center, #bbb;
+    background:         linear-gradient(90deg, #f6f6f6 19px, transparent 1%) center, linear-gradient(#f6f6f6 19px, transparent 1%) center, #bbb;
     -webkit-background-size: 22px 22px;
             background-size: 22px 22px;
+}
+.RH-box
+{
+    margin-top: 200px;
 }
 .btn-default,
 .btn-primary,
