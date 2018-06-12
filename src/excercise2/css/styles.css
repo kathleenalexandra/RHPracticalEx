@@ -5,6 +5,42 @@ body{
 
 
 
+.info-container {
+    width:60%;
+    float:left;
+}
+
+.content-container {
+    width:40%;
+    float:right;
+
+}
+
+
+@media only screen and (min-width: 860px) {
+
+.content-title {
+    background: red;
+    height: 100px;
+    max-width: 60%;
+    display: inline;
+    float: right;
+}
+
+.content-data {
+    background: blue;
+    height: 100px;
+    max-width: 40%;
+    display: block;
+    float: left;
+}
+
+
+
+}
+
+
+
 .panel-container {
 	display:block;
 	margin:auto;
