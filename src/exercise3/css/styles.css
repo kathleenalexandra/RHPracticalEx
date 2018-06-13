@@ -1,4 +1,5 @@
 
+/* Solution 1: set percentages to equal 100 */ 
 
 body {
   padding: 30px;
@@ -8,7 +9,7 @@ header {
 }
 section {
   background: lightgreen;
-  width: 75%; percentanges don't consider the padding, so one fix is to reduce 75 to 73 
+  width: 75%; /* percentanges don't consider the padding, so one fix is to reduce 75 to 73 */ 
   float: left;
 }
 article {
@@ -23,6 +24,39 @@ aside {
 header, article, section, .module {
   padding: 1rem;
 } 
+
+
+/*Solution 2: use display block and hide overflow, kill percentages; */ 
+
+body {
+  padding: 30px;
+}
+header {
+  background: lightblue;
+}
+section {
+  background: lightgreen;
+  float: left;
+}
+article {
+  background: white;
+  margin: 0 0 1rem 0;
+}
+
+aside {
+  background: pink;
+  display:block
+  float: right;
+  padding:1em;
+  overflow:hidden;
+  
+}
+
+header, article, section, .module {
+  padding: 1rem;
+
+}
+
 
 
 
