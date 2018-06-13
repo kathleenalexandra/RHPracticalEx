@@ -2236,6 +2236,13 @@ hr
 {
     cursor: pointer;
 }
+/* override for panel gradient */
+.panel-default > .panel-heading
+{
+    color: white !important;
+    background-color: red!important;
+    background-image: none;
+}
 h1,
 h2,
 h3,
