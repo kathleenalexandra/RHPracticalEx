@@ -1,53 +1,50 @@
 
-body{
-	background-color:grey;
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+       url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
 }
 
 
 
-.info-container {
-    width:60%;
-    float:left;
-}
 
-.content-container {
-    width:40%;
-    float:right;
 
+
+
+body {
+    background-color:grey;
 }
 
 
-@media only screen and (min-width: 860px) {
 
-.content-title {
-    background: red;
-    height: 100px;
-    max-width: 60%;
-    display: inline;
-    float: right;
+
+.active-button {
+    background-color: #4CAF50;
+    margin-top:10px;
+
+  
 }
+
 
 .content-data {
-    background: blue;
-    height: 100px;
-    max-width: 40%;
-    display: block;
-    float: left;
+    width:100%;
 }
 
-
-
+.content-title {
+    width:100%;
 }
 
 
 
 .panel-container {
-	display:block;
-	margin:auto;
-	margin-top:15%;
-	max-width:50%;
-	background:white;
-	min-height:350px;
+    display:block;
+    margin:auto;
+    margin-top:15%;
+    max-width:50%;
+    background:white;
+    min-height:400px;
+
+
 }
 
 
@@ -117,11 +114,24 @@ body{
     }
 
 
+.content-data {
+    height: 30px;
+    max-width: 60%;
+    display: block;
+    float: right;
+}
 
+.content-title {
+    height: 30px;
+    max-width: 40%;
+    display: inline;
+    float: left;
 }
 
 
 
+
+}
 
 
 
