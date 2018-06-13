@@ -12,11 +12,9 @@
 @import "mixins.less";
 
 
+/* custom overrides */ 
 
 body {
-
- 
-
   background:
     linear-gradient(90deg, @bg-color (@dot-space - @dot-size), transparent 1%) center,
     linear-gradient(@bg-color (@dot-space - @dot-size), transparent 1%) center,
@@ -24,11 +22,33 @@ body {
   background-size: @dot-space @dot-space;
 }
 
+
 .RH-box {
   margin-top: @box-offset; 
 }
 
+.number-box {
+    height: 20px;
+    width: 27px;
+    background: @rh-darkred;
+    margin-top: -18px;
+    margin-right: -2px;
+}
 
+
+.panel-default>.panel-heading {
+    background-image: none !important;
+    background-color: @rh-red !important;
+    color:white !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.panel {
+    min-width: 189px;
+    padding-bottom:70%; 
+}
 
 
 
