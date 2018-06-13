@@ -1543,13 +1543,6 @@ hr
 {
     cursor: pointer;
 }
-/* override for panel gradient */
-.panel-default > .panel-heading
-{
-    color: white !important;
-    background-color: red!important;
-    background-image: none;
-}
 h1,
 h2,
 h3,
@@ -8855,6 +8848,8 @@ body
     height: 20px;
     margin-top: -18px;
     margin-right: -2px;
+
+    text-align: center;
 
     background: #6f0000;
 }
