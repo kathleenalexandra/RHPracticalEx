@@ -1,28 +1,39 @@
 
 @font-face {
-  font-family: "Open Sans";
-  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
-       url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+  font-family: 'overpass';
+  src: url('fonts/overpass/overpass-regular.ttf') format('ttf'),  
 }
-
-
-
-
-
 
 
 body {
-    background-color:grey;
+    background: linear-gradient(to right, #bbb, #ededed);
+}
+
+/* headings and fonts */ 
+
+p, h1, h2, h3 {
+    font-family:overpass;
 }
 
 
+.panel-nav {
+    font-size:12px;
+}
+
+.panel-heading {
+    font-size:22px;
+}
+
+.panel-copy {
+    font-size:14px;
+
+}
 
 
 .active-button {
     background-color: #4CAF50;
     margin-top:10px;
-
-  
+    font-family: overpass;
 }
 
 
@@ -32,6 +43,7 @@ body {
 
 .content-title {
     width:100%;
+
 }
 
 
@@ -40,7 +52,7 @@ body {
     display:block;
     margin:auto;
     margin-top:15%;
-    max-width:50%;
+    max-width:80%;
     background:white;
     min-height:400px;
 
@@ -50,6 +62,7 @@ body {
 
 
 .horizontal-menu  {
+    font-family:overpass;
     background: linear-gradient(#c00, #470000);
 }
 
@@ -73,7 +86,12 @@ body {
 
 
 
-@media only screen and (min-width: 860px) {
+@media only screen and (min-width: 728px) {
+
+
+.panel-container {
+    max-width:50%;
+}
 
 
 .horizontal-menu  {
