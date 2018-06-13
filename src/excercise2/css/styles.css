@@ -13,6 +13,7 @@ body {
 
 p, h1, h2, h3 {
     font-family:overpass;
+    color:#000000;
 }
 
 
@@ -26,40 +27,30 @@ p, h1, h2, h3 {
 
 .panel-copy {
     font-size:14px;
-
-}
-
-
-.active-button {
-    background-color: #4CAF50;
-    margin-top:10px;
-    font-family: overpass;
-}
-
-
-.content-data {
-    width:100%;
 }
 
 .content-title {
-    width:100%;
-
+    font-weight:bold;
+    font-size:14px;
 }
 
+.content-data {
+    font-size:13px;
+    font-color:#bbb;
+}
 
+/* placing and sizing */ 
 
 .panel-container {
     display:block;
     margin:auto;
-    margin-top:15%;
+    margin-top:10%;
     max-width:80%;
     background:white;
     min-height:400px;
-
-
 }
 
-
+/* navbar styling and mobile view */ 
 
 .horizontal-menu  {
     font-family:overpass;
@@ -68,87 +59,94 @@ p, h1, h2, h3 {
 
 
 .horizontal-menu a {
-    color: black;
     display: block;
     padding: 12px;
-    text-decoration: none;
-}
-
-.horizontal-menu a:hover {
-    background: linear-gradient(red, black, red);
-}
-
-.horizontal-menu a.active {
-    background: linear-gradient(red, black, red);
-}
-
-
-
-
-
-@media only screen and (min-width: 728px) {
-
-
-.panel-container {
-    max-width:50%;
-}
-
-
-.horizontal-menu  {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    /*background: linear-gradient(#c00, #470000); */ 
-}
-
-.horizontal-menu a {
-    float: left;
-    display:inline-block;
-    border-left:1px solid #bbb;
-}
-
-.horizontal-menu .right-align{
-    float: right;
-}
-
-
-
-.horizontal-menu a:first-child {
-    float:left;
-}
-
-
-.horizontal-menu a  {
-    display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-bottom:1px solid #bbb;
 }
 
 .horizontal-menu a:hover {
-        background: linear-gradient(red, black, red);
-    
-    }
+    background: linear-gradient(#470000, #c00, #470000);
+}
 
+.horizontal-menu a.active {
+    background: linear-gradient(#470000, #c00, #470000);
+}
+
+
+/* set mobile view for title and data */ 
 
 .content-data {
-    height: 30px;
-    max-width: 60%;
-    display: block;
-    float: right;
+    width:100%;
 }
 
 .content-title {
-    height: 30px;
-    max-width: 40%;
-    display: inline;
-    float: left;
+    width:100%;
+
+}
+
+.active-button {
+    text-align:center;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    border:none;
+    margin-top:10px;
+    color:white;
+    font-family: overpass;
 }
 
 
+@media only screen and (min-width: 728px) {
 
+    .panel-container {
+        max-width:50%;
+    }
 
+    /* desktop/default view for navbar  */ 
+
+    .horizontal-menu  {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .horizontal-menu a {
+        float: left;
+        display:inline-block;
+        border-left:1px solid #bbb;
+    }
+
+    .horizontal-menu .right-align{
+        float: right;
+    }
+
+    .horizontal-menu a:first-child {
+        float:left;
+    }
+
+    .horizontal-menu a  {
+        display: block;
+
+    }
+
+/* display titles and data strait across on web */ 
+
+    .content-data {
+        height: 30px;
+        max-width: 60%;
+        display: block;
+        float: right;
+    }
+
+    .content-title {
+        height: 30px;
+        max-width: 40%;
+        display: inline;
+        float: left;
+    }
 }
 
 
