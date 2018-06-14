@@ -8829,44 +8829,6 @@ button.close
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-/* custom overrides */
-body
-{
-    background: -webkit-linear-gradient(0deg, #f6f6f6 19px, transparent 1%) center, -webkit-linear-gradient(#f6f6f6 19px, transparent 1%) center, #bbb;
-    background:      -o-linear-gradient(0deg, #f6f6f6 19px, transparent 1%) center, -o-linear-gradient(#f6f6f6 19px, transparent 1%) center, #bbb;
-    background:         linear-gradient(90deg, #f6f6f6 19px, transparent 1%) center, linear-gradient(#f6f6f6 19px, transparent 1%) center, #bbb;
-    -webkit-background-size: 22px 22px;
-            background-size: 22px 22px;
-}
-.RH-box
-{
-    margin-top: 200px;
-}
-.number-box
-{
-    width: 27px;
-    height: 20px;
-    margin-top: -18px;
-    margin-right: -2px;
-
-    text-align: center;
-
-    background: #6f0000;
-}
-.panel-default > .panel-heading
-{
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-    color: white !important;
-    background-color: #c00 !important;
-    background-image: none !important;
-}
-.panel
-{
-    min-width: 189px;
-    padding-bottom: 70%;
-}
 .btn-default,
 .btn-primary,
 .btn-success,
@@ -9542,5 +9504,43 @@ fieldset[disabled] .btn-danger.active
             box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1);
 
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe8e8e8', endColorstr='#fff5f5f5', GradientType=0);
+}
+/* theme custom overrides */
+body
+{
+    background: -webkit-linear-gradient(0deg, #f6f6f6 19px, transparent 1%) center, -webkit-linear-gradient(#f6f6f6 19px, transparent 1%) center, #bbb;
+    background:      -o-linear-gradient(0deg, #f6f6f6 19px, transparent 1%) center, -o-linear-gradient(#f6f6f6 19px, transparent 1%) center, #bbb;
+    background:         linear-gradient(90deg, #f6f6f6 19px, transparent 1%) center, linear-gradient(#f6f6f6 19px, transparent 1%) center, #bbb;
+    -webkit-background-size: 22px 22px;
+            background-size: 22px 22px;
+}
+.RH-box
+{
+    margin-top: 200px;
+}
+.panel-default > .panel-heading
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    color: white ;
+    background-color: #c00;
+    background-image: none;
+}
+.panel
+{
+    min-width: 189px;
+    padding-bottom: 70%;
+}
+.number-box
+{
+    width: 27px;
+    height: 20px;
+    margin-top: -18px;
+    margin-right: -2px;
+
+    text-align: center;
+
+    background: #6f0000;
 }
 /*# sourceMappingURL=bootstrap.css.map */
