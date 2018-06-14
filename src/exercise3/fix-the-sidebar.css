@@ -26,7 +26,7 @@ header, article, section, .module {
 } 
 
 
-/*Solution 2: use display block and hide overflow, kill percentages; */ 
+/*Solution 2: use display block and hide overflow, kill percentages */ 
 
 body {
   padding: 30px;
@@ -58,7 +58,7 @@ header, article, section, .module {
 }
 
 
-/* Solution 2: add containers to the html and used relative and fixed positioning ; */ 
+/* Solution 2: add containers to the html and used relative and fixed positioning */ 
 
 /*HTML */ 
 <main>
