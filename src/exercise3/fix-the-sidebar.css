@@ -61,7 +61,6 @@ header, article, section, .module {
 /* Solution 2: add containers to the html and used relative and fixed positioning ; */ 
 
 /*HTML */ 
-
 <main>
 <header>
 <h1>Site</h1>
@@ -89,7 +88,9 @@ header, article, section, .module {
 </div>
 </div>
 
-/*HTML */  
+/* END HTML */  
+
+/* CSS */  
 
 body {
   padding: 30px;
@@ -108,7 +109,6 @@ header {
 .float {
    background-color:pink; 
    margin:0; 
-
 }
 
 .left {
@@ -117,16 +117,14 @@ header {
    width:70%;
 }
 
+.right {
+   float:right; 
+   width:30%; 
+}
 
 article {
   background: white;
   margin: 0 0 1rem 0;
-}
-
-.right {
-   float:right; 
-   width:30%; 
-   
 }
 
 header, article, section, .module {
@@ -137,6 +135,7 @@ header, article, section, .module {
   margin-left:3rem;
 }
 
+/* CSS */  
 
 
 
